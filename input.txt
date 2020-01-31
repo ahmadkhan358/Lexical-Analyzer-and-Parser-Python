@@ -1,0 +1,5 @@
+main{
+//comment
+num * num + num
+//comment
+}
