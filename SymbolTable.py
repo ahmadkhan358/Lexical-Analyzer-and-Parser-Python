@@ -34,6 +34,9 @@ class SymbolTable:
         if self.table[index] is not None:
             container = self.table[index]
             while True:
+                if container == None:
+                    return False
+
                 if lexeme == container.lexeme:
                     break
                 container = container.next
